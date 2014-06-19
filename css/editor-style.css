@@ -1,0 +1,491 @@
+/*  
+Theme Name: Green Garden
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/*-----------FONTS-----------*/
+
+@font-face {
+	font-family: "Open Sans Light";
+	src: url('font/OpenSans-Light.eot');
+	src: url('font/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-Light.svg#Open Sans Light') format('svg'),
+	url('font/OpenSans-Light.woff') format('woff'),
+	url('font/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Open Sans LightItalic";
+	src: url('font/OpenSans-LightItalic.eot');
+	src: url('font/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-LightItalic.svg#Open Sans Light') format('svg'),
+	url('font/OpenSans-LightItalic.woff') format('woff'),
+	url('font/OpenSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Open Sans Regular";
+	src: url('font/OpenSans-Regular.eot');
+	src: url('font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-Regular.svg#Open Sans') format('svg'),
+	url('font/OpenSans-Regular.woff') format('woff'),
+	url('font/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Open Sans Italic";
+	src: url('font/OpenSans-Italic.eot');
+	src: url('font/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-Italic.svg#Open Sans') format('svg'),
+	url('font/OpenSans-Italic.woff') format('woff'),
+	url('font/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Open Sans Semibold";
+	src: url('font/OpenSans-Semibold.eot');
+	src: url('font/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-Semibold.svg#Open Sans Semibold') format('svg'),
+	url('font/OpenSans-Semibold.woff') format('woff'),
+	url('font/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Open Sans Bold";
+	src: url('font/OpenSans-Bold.eot');
+	src: url('font/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-Bold.svg#Open Sans') format('svg'),
+	url('font/OpenSans-Bold.woff') format('woff'),
+	url('font/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: "Open Sans Extrabold";
+	src: url('font/OpenSans-ExtraBold.eot');
+	src: url('font/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	url('font/OpenSans-ExtraBold.svg#Open Sans Extrabold') format('svg'),
+	url('font/OpenSans-ExtraBold.woff') format('woff'),
+	url('font/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+
+.slider-head h1, p.entry-meta{
+	font-family: "Open Sans Light";
+}
+
+p, .grngrdn-select, a, dt, dl, li, caption, table, blockquote, legend, h2.post-title{
+	font-family: "Open Sans Regular";
+}
+
+p.thumbnail-caption{
+	font-family: "Open Sans Italic";
+}
+
+h1, h2, h3, h4, h5, h6, input[type="reset"], input[type="submit"]{
+	font-family: "Open Sans Bold";
+}
+
+pre{
+	font-family: "Courier New";
+}
+
+/*-----------END FONTS-----------*/
+
+/*-----------PAGE-----------*/
+
+.grngrdn-slider-head h1,
+p.entry-meta {
+	font-family: "Open Sans Light";
+}
+
+.menu-item a,
+p,
+.grngrdn-select,
+a,
+dt,
+dl,
+li,
+caption,
+table,
+blockquote,
+legend,
+h2.post-title,
+fieldset,
+div {
+	font-family: "Open Sans Regular";
+}
+
+p.thumbnail-caption,
+address {
+	font-family: "Open Sans Italic";
+}
+
+h2.widgettitle {
+	font-family: "Open Sans Semibold";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="reset"],
+input[type="submit"] {
+	font-family: "Open Sans Bold";
+}
+
+.site-title a,
+.grngrdn-footer-theme-name h3 {
+	font-family: "Open Sans Extrabold";
+}
+
+pre {
+	font-family: "Courier New";
+}
+
+/*-----------END FONTS-----------*/
+
+/*-----------PAGE-----------*/
+
+* {
+	border: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+span,
+p,
+dl,
+dd,
+li,
+legend,
+caption,
+th,
+td,
+fieldset {
+	color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #444444;
+}
+
+a {
+	text-decoration: none;
+	color: #6b9f3d;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grey {
+	color: #999999;
+}
+
+.wrap {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.wrap-widget {
+	word-wrap: break-word;
+}
+
+.clear {
+	clear: both;
+}
+
+a,
+input[type="submit"],
+input[type="reset"],
+.grngrdn-active-opt,
+input[type="text"],
+textarea,
+.grngrdn-custom-file,
+.grngrdn-custom-file-content,
+.grngrdn-custom-file-text,
+.grngrdn-custom-file-button {
+	behavior: url( wp-content/themes/greengarden/js/PIE.htc );
+	position: relative;
+	zoom: 1;
+}
+
+img,
+div {
+	max-width: 100%;
+	height: auto;
+}
+
+iframe,
+embed {
+	max-width: 100%;
+}
+
+/*-----------FONT SIZES-----------*/
+
+h6 {
+	font-size: 11px;
+}
+
+h5,
+pre,
+blockquote,
+.menu-item a,
+.page_item a {
+	font-size: 13px;
+}
+
+p,
+dd,
+li,
+.grngrdn-select,
+legend,
+address,
+fieldset {
+	font-size:14px;
+}
+
+input[type="reset"],
+input[type="submit"],
+h4,
+.grngrdn-slider-content p,
+a.grngrdn-slider-more {
+	font-size: 15px;
+}
+
+dt,
+h2.widgettitle {
+	font-size: 16px;
+}
+
+h3,
+h1.site-title a {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h1 {
+	font-size: 23px;
+}
+
+.grngrdn-slider-head h1 {
+	font-size:35px;
+	letter-spacing: 1.5px;
+}
+
+/*-----------END FONT SIZES-----------*/
+
+/*-----------END PAGE-----------*/
+
+/*-----------CONTENT-----------*/
+
+.entry-header{
+	padding-top: 22px;
+}
+
+.post-title, .post-title a {
+	color: #000;
+}
+
+.entry-meta{
+	padding-top: 9px;
+}
+
+.entry{
+	margin-top: 15px;
+}
+
+.entry p.thumbnail-caption{	
+	margin-top: 5px;
+}
+
+
+.entry p, .entry legend{
+	padding-bottom: 18px;
+	line-height: 20px;
+}
+
+.entry h1{
+	padding-top: 22px;
+}
+
+.entry h2{
+	padding-top: 15px;
+}
+
+.entry h3{
+	padding-top: 19px;	
+}
+
+.entry h4{
+	padding-top: 21px;	
+}
+
+.entry h5{
+	padding-top: 19px;	
+}
+
+.entry h6{
+	padding-top: 24px;	
+}
+
+.entry .wp-caption img{	
+	max-width: 550px;
+	height: auto;
+}
+
+.wp-caption{
+	max-width: 100%;
+}
+
+p.wp-caption-text
+{		
+	color: #aaaaaa;	
+}
+
+p.totop{
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+
+.entry  dl{
+	margin-left: 30px;
+}
+
+.entry  dd{
+	color: #555555;
+}
+
+.entry ol{
+	list-style-type: decimal;
+}
+
+.entry ul{
+	list-style-type: disc;
+}
+
+.entry li{
+	margin-left: 55px;
+}
+
+.entry fieldset{
+	border:none;
+}
+
+.entry input[type="text"]{
+	border: solid 1px #d9d9d9;
+	margin-top: 15px;
+	height: 37px;
+	width: 220px;
+	border-radius: 3px;
+	background: #f3f3f3;
+}
+
+.entry textarea{
+	border: solid 1px #d9d9d9;
+	margin-top: 15px;
+	height: 107px;
+	width: 220px;
+	border-radius: 3px;
+	background: #f3f3f3;
+	max-width: 560px;
+
+}
+
+.entry-footer{
+	padding-top: 14px;
+}
+
+
+#grngrdn-content input[type="reset"], #grngrdn-content input[type="submit"]{
+	cursor: pointer;
+	margin-top: 10px;
+	margin-right: 11px;
+	border: none;
+	border-radius: 4px;
+	padding: 16px;
+	background: #444444;
+	color: #fff;	
+}
+
+#grngrdn-content input[type="reset"]:hover, #grngrdn-content input[type="submit"]:hover{	
+	background: #699f3d;	
+}
+
+.entry sup, .entry sub, .entry cite{
+	color: #999999;
+}
+
+.entry cite{
+	font-style: normal;
+}
+
+pre{
+	border: 1px solid #dddddd;	
+	margin-top: 20px;
+	padding-bottom: 0px;
+	white-space: pre-wrap;
+	word-wrap: break-word;	
+	padding-left: 20px;
+	color: #aaaaaa;
+	margin: 0;
+}
+
+blockquote{	
+	display: inline-block;
+	border-left: 9px solid #699f3d;
+	margin-top: 30px;
+	background: #f3f3f3;	
+	padding: 13px 39px 13px 12px;
+	color: #999898;
+}
+
+blockquote p{
+	color: #999898;
+	margin: 0;
+	padding: 0;
+}
+
+blockquote:after{
+	content: "- Blockquote"
+}
+
+
+
+/*-----------POST NAV-----------*/
+
+.post-navigation{
+	word-wrap:break-word;
+}
+
+.post-nav-prev, .post-nav-next{
+	max-width: 45%;
+}
+
+/*-----------END POST NAV-----------*/
+
+/*-----------END CONTENT-----------*/
+
+/*-----------END MAIN-----------*/
+

@@ -1,0 +1,250 @@
+# Copyright (C) 2014 the WordPress team
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Green Garden\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-08 16:27+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft.com <support@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../greengarden-slider.php:28
+msgid "learn more"
+msgstr ""
+
+#: ../index.php:20
+msgid "Sticky post"
+msgstr ""
+
+#: ../index.php:25
+#: ../search.php:17
+#: ../archive.php:27
+#: ../single.php:14
+#: ../image.php:14
+#: ../category.php:17
+#: ../tag.php:17
+msgid "Posted on"
+msgstr ""
+
+#: ../index.php:25
+#: ../search.php:17
+#: ../archive.php:27
+#: ../single.php:14
+#: ../image.php:14
+#: ../category.php:17
+#: ../tag.php:17
+msgid "in"
+msgstr ""
+
+#: ../index.php:38
+#: ../search.php:28
+#: ../archive.php:38
+#: ../single.php:27
+#: ../category.php:28
+#: ../tag.php:28
+msgid "Tags:"
+msgstr ""
+
+#: ../index.php:45
+#: ../search.php:35
+#: ../archive.php:45
+#: ../category.php:35
+#: ../tag.php:35
+msgid "Previous page"
+msgstr ""
+
+#: ../index.php:46
+#: ../search.php:36
+#: ../archive.php:46
+#: ../category.php:36
+#: ../tag.php:36
+msgid "Next page"
+msgstr ""
+
+#: ../search.php:11
+#: ../functions.php:76
+msgid "Searching for:"
+msgstr ""
+
+#: ../footer.php:17
+msgid "Powered by"
+msgstr ""
+
+#: ../footer.php:17
+msgid "and"
+msgstr ""
+
+#: ../archive.php:13
+msgid "Daily Archives:"
+msgstr ""
+
+#: ../archive.php:15
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../archive.php:15
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:17
+msgid "Yearly Archives:"
+msgstr ""
+
+#: ../archive.php:17
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Archives:"
+msgstr ""
+
+#: ../comments.php:13
+msgid "One thought on"
+msgstr ""
+
+#: ../comments.php:13
+msgid "thoughts on"
+msgstr ""
+
+#: ../comments.php:13
+#, php-format
+msgid " &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:20
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:21
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:27
+msgid "You may use these"
+msgstr ""
+
+#: ../comments.php:27
+msgid "tags and attributes"
+msgstr ""
+
+#: ../comments.php:31
+#: ../comments.php:36
+msgid "Comments are closed."
+msgstr ""
+
+#: ../404.php:15
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: ../404.php:16
+msgid "Please try using our search box below to look for information on the internet."
+msgstr ""
+
+#: ../greengarden-nothingfound.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: ../greengarden-nothingfound.php:14
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: ../greengarden-nothingfound.php:14
+msgid "Get started here"
+msgstr ""
+
+#: ../greengarden-nothingfound.php:18
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../greengarden-nothingfound.php:23
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../image.php:62
+msgid "Previous"
+msgstr ""
+
+#: ../image.php:63
+msgid "Next"
+msgstr ""
+
+#: ../category.php:11
+#: ../functions.php:72
+msgid "Category:"
+msgstr ""
+
+#: ../tag.php:11
+#: ../functions.php:74
+msgid "Tag:"
+msgstr ""
+
+#: ../functions.php:70
+msgid "Page"
+msgstr ""
+
+#: ../functions.php:89
+msgid "Choose file"
+msgstr ""
+
+#: ../functions.php:90
+msgid "File is not selected"
+msgstr ""
+
+#: ../functions.php:103
+msgid "Pingback"
+msgstr ""
+
+#: ../functions.php:103
+#: ../functions.php:124
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:111
+msgid "by"
+msgstr ""
+
+#: ../functions.php:114
+msgid "This is post author"
+msgstr ""
+
+#: ../functions.php:119
+msgid "at"
+msgstr ""
+
+#: ../functions.php:127
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:144
+msgid "Continue"
+msgstr ""
+
+#: ../functions.php:148
+msgid "Add to slider"
+msgstr ""
+
+#: ../functions.php:167
+msgid "To add this"
+msgstr ""
+
+#: ../functions.php:167
+msgid "into the slider, mark it"
+msgstr ""
+
+#: ../searchform.php:8
+msgid "Enter search keyword"
+msgstr ""
+
