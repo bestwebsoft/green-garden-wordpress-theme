@@ -66,11 +66,6 @@
 			/*reset input:file*/
 			$( this ).closest( 'form' ).find( '.grngrdn-custom-file-text' ).text( script_loc.choose_file );
 			$( this ).closest( 'form' ).find( '.grngrdn-custom-file-status' ).text( script_loc.file_is_not_selected );
-			/*reset select*/
-			$( this ).closest( 'form' ).find( '.grngrdn-active-opt' ).find( 'div:first' ).text( $( this ).closest( 'form' ).find( 'select' ).find( 'option:first' ).text() );
-			$( this ).closest( 'form' ).find( 'select' ).find( 'option' ).each( function () {
-					$( this ).removeAttr( 'selected' );
-			});
 		});
 		/*select section restyle*/
 		var test = $( 'select' ).size();
@@ -127,6 +122,44 @@
 		});
 	});
 } )( jQuery );
+
+( function( $ ) {
+	$(document).ready(function() {
+		/* Check of previous selected items */
+		$( 'select' ).each(function() {
+			var index = $( this ).find( "option[selected]" ).index();
+			if (index >= 0) {
+				/*add attr selected to select*/
+				var selected_select = $( this ).find( "option[selected]" ).parent().next().find( ".grngrdn-options .grngrdn-option[name='" + index + "']" );
+				selected_select.addClass( 'grngrdn-option-selected' );
+				/*write text to active opt*/
+				selected_select.parent().prev( '.grngrdn-active-opt' ).find( 'div:first' ).text( selected_select.text() );
+			}
+		});
+		/* Clear select elements */
+		$( 'input:reset' ).click( function() {
+			/* Clear original selects. */
+			$( 'select' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( "option:first" );
+				var clear_selected_select = $( this ).find( "option[selected]" );
+				/* clear active opt */
+				$( clear_selected_select ).removeAttr( 'selected' );
+				$( clear_select ).attr( 'selected', 'selected' );
+			});
+			/* Clear custom selects. */
+			$( '.grngrdn-select' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( ".grngrdn-option[name='0']" );
+				var clear_selected_select = $( this ).find( ".grngrdn-options" ).find( ".grngrdn-option-selected" );
+				/* clear active opt */
+				clear_select.parent().prev( '.grngrdn-active-opt' ).find( 'div:first' ).text( clear_select.text() );
+				clear_selected_select.removeClass( 'grngrdn-option-selected' );
+			});
+		});
+	});
+} )( jQuery );
+
 /* define all custom functions */
 /*function for input:file*/
 function CreateFileInput( k ) {

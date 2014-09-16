@@ -3,8 +3,8 @@ Contributors: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
 Tags: green, gray, white, two-columns, left-sidebar, fixed-layout, custom-background, custom-menu, editor-style, featured-images, flexible-header, translation-ready
 Requires at least: 3.7
-Tested up to: 3.9
-Stable tag: 1.2
+Tested up to: 3.9.2
+Stable tag: 1.5
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Green Garden WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -12,7 +12,7 @@ Green Garden is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Green Garden is simple, unobtrusive theme with mild and non-distracting design. Despite its simplicity, it has sufficient functional as well as integrated slider to fill your blog or other resource. 
+Are you a nature-lover, who seeks a theme that would convey the utmost care and aprreciation for Mother Earth? Or maybe you are a photographer,  who is inspired by nature's magnificence and wishes to share their landscape shots in a harmonious and balanced environment? Or are you an owner of a store selling organic goods, who searches for the theme that would bring out the idea of consuming environment-friendly products and following a healthy lifestyle? Whether we hit the bull's eye, or got wide or mark - we are glad to present Green Garden - a dainty, highly customizable and easy-to-use theme that will please even the most blase users. What makes Green Garden even better is the complete compatiblity with other BestWebSoft products. For this matter, we belive that such plugins as Gallery (http://wordpress.org/plugins/gallery-plugin/) and Protfolio (http://wordpress.org/plugins/portfolio/) will serve as a superb extension of your site's functionality, while supporting your overall idea. With these plugins, you will never be alarmed about compliance issues! Live demo: http://bestwebsoft.com/wordpress_demo_theme/greengarden/
 
 = Features =
 
@@ -116,6 +116,17 @@ In this theme slider is installed by default. To start is, please, add at least 
 
 == Changelog ==
 
+= V1.5 - 22.07.2014 =
+* Update: File style.css was updated.
+* Update: We updated theme to WordPress 3.9.2.
+* Bugfix: JS custom elements bugs were fixed.
+
+= V1.4 - 10.07.2014 =
+* Bugfix: Footer and functions bugs were fixed.
+
+= V1.3 - 19.06.2014 =
+* Update: Theme link is updated.
+
 = V1.2 - 14.04.2014 =
 * NEW: Localization files were added.
 * Update: Provided more detailed instructions on how to use the slider.
@@ -126,6 +137,15 @@ In this theme slider is installed by default. To start is, please, add at least 
 * Bugfix: Bug in the slider with image size was fixed.
 
 == Upgrade Notice ==
+
+= V1.5 =
+We updated theme to WordPress 3.9.2. File style.css was updated. JS custom elements bugs were fixed.
+
+= V1.4 =
+Footer and functions bugs were fixed.
+
+= V1.3 =
+Theme link is updated.
 
 = V1.2 =
 Provided more detailed instructions on how to use the slider. Localization files were added. Styles in comments were fixed.

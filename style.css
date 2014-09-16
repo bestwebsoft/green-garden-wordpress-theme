@@ -1,10 +1,10 @@
 /*
 Theme Name: Green Garden
-Theme URI: http://bestwebsoft.com/theme/green-garden
+Theme URI: https://github.com/bestwebsoft/green-garden-wordpress-theme
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Description: Green Garden is an ordinary, not striking theme with a mild, non-distracting design. But despite its apparent simplicity, it has enough functionality for the appearance of your blog or other resource, and also a built-in slider
-Version: 1.2
+Description: Are you a nature-lover, who seeks a theme that would convey the utmost care and aprreciation for Mother Earth? Or maybe you are a photographer, who is inspired by nature's magnificence and wishes to share their landscape shots in a harmonious and balanced environment? Or are you an owner of a store selling organic goods, who searches for the theme that would bring out the idea of consuming environment-friendly products and following a healthy lifestyle? Whether we hit the bull's eye, or got wide or mark - we are glad to present Green Garden - a dainty, highly customizable and easy-to-use theme that will please even the most blase users. What makes Green Garden even better is the complete compatiblity with other BestWebSoft products. For this matter, we belive that such plugins as Gallery (http://wordpress.org/plugins/gallery-plugin/) and Protfolio (http://wordpress.org/plugins/portfolio/) will serve as a superb extension of your site's functionality, while supporting your overall idea. With these plugins, you will never be alarmed about compliance issues! Live demo: http://bestwebsoft.com/wordpress_demo_theme/greengarden/
+Version: 1.5
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: green, gray, white, two-columns, left-sidebar, fixed-layout, custom-background, custom-menu, editor-style, featured-images, flexible-header, translation-ready
@@ -114,6 +114,7 @@ h4,
 h5,
 h6,
 input[type="reset"],
+input[type="button"],
 input[type="submit"] {
 	font-family: "Open Sans Bold";
 }
@@ -198,6 +199,7 @@ a {
 
 a,
 input[type="submit"],
+input[type="button"],
 input[type="reset"],
 .grngrdn-active-opt,
 input[type="text"],
@@ -211,15 +213,23 @@ textarea,
 	zoom: 1;
 }
 
-img,
-div {
+img {
 	max-width: 100%;
+	height: auto;
+}
+
+div {
+	/*max-width: 100%;*/
 	height: auto;
 }
 
 iframe,
 embed {
 	max-width: 100%;
+}
+
+span.display-name {
+	color:#69A03D;
 }
 
 /*-----------FONT SIZES-----------*/
@@ -247,6 +257,7 @@ fieldset {
 }
 
 input[type="reset"],
+input[type="button"],
 input[type="submit"],
 h4,
 .grngrdn-slider-content p,
@@ -886,12 +897,12 @@ h2.widgettitle a {
 	width: 560px;
 }
 
-.page,
+#grngrdn-page .page,
 #post-0 {
 	padding-bottom: 28px;
 }
 
-.post,
+#grngrdn-page .post,
 .sticky {
 	padding-bottom: 28px;
 	border-bottom: 5px dashed #e5e5e5;
@@ -1092,6 +1103,7 @@ p.totop {
 	border-radius: 3px;
 	background: #f3f3f3;
 	display: block;
+	padding: 0px 5px;
 }
 
 .entry textarea,
@@ -1129,7 +1141,7 @@ select {
 	border-radius: 5px;
 	z-index: 10;
 	cursor: pointer;
-	margin: 0 0 20px -1px;
+	margin: 0 20px 20px -1px;
 }
 
 .grngrdn-active-opt {
@@ -1307,6 +1319,7 @@ select {
 /*-----------END INPUT FILE-----------*/
 
 input[type="reset"],
+input[type="button"],
 input[type="submit"] {
 	cursor: pointer;
 	margin-top: 10px;
@@ -1319,6 +1332,7 @@ input[type="submit"] {
 }
 
 input[type="reset"]:hover,
+input[type="button"]:hover,
 input[type="submit"]:hover {
 	background: #699f3d;
 }

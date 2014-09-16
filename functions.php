@@ -14,8 +14,10 @@ function grngrdn_content_width() {/*settting width for attachment*/
 function grngrdn_setup() {
 	add_theme_support( 'automatic-feed-links' ); /*automatic-feed-links*/
 	add_theme_support( 'post-thumbnails' ); /*support thumbnails*/
-	 if ( ! isset( $content_width ) )
+	if ( ! isset( $content_width ) ) {
+		global $content_width;
 		$content_width = 560; /* pixels */
+	}
 	add_image_size( 'grngrdn_post', 560, 283 , true ); /*size for posts thumbnail*/
 	add_image_size( 'grngrdn_slider', 1920, 350 , true ); /*size for slider thumbnail*/
 	$bgdefaults = array(
@@ -206,4 +208,4 @@ add_action( 'wp_enqueue_scripts', 'grngrdn_scripts_styles' );
 add_filter( 'excerpt_more', 'grngrdn_excerpt_more' );
 add_action( 'add_meta_boxes', 'grngrdn_metabox_for_slider' );
 add_action( 'save_post', 'grngrdn_save_post_meta_for_slider' );
-add_action( 'save_post', 'grngrdn_autosave_slider' ); ?>
+add_action( 'save_post', 'grngrdn_autosave_slider' );
