@@ -4,236 +4,139 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Green Garden\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-08 16:26+0300\n"
+"POT-Creation-Date: 2016-06-24 14:52+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <support@bestwebsoft.com>\n"
-"Language: \n"
+"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: UKRAINE\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x;esc_attr_e\n"
 "X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../greengarden-slider.php:28
-msgid "learn more"
-msgstr "читать далее"
+#: ../404.php:16
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr ""
+"Страница, которую вы ищете, могла быть перемещена, ей могли поменять имя, "
+"или она временно недоступна."
 
-#: ../index.php:20
-msgid "Sticky post"
-msgstr "Важный пост"
+#: ../404.php:17
+msgid ""
+"Please try using our search box below to look for information on the "
+"internet."
+msgstr "Пожалуйста воспользуйтесь системой поиска ниже."
 
-#: ../index.php:25
-#: ../search.php:17
-#: ../archive.php:27
-#: ../single.php:14
-#: ../image.php:14
-#: ../category.php:17
-#: ../tag.php:17
+#: ../archive.php:23 ../image.php:16 ../index.php:27 ../search.php:21
+#: ../single.php:16
 msgid "Posted on"
 msgstr "Опубликовано"
 
-#: ../index.php:25
-#: ../search.php:17
-#: ../archive.php:27
-#: ../single.php:14
-#: ../image.php:14
-#: ../category.php:17
-#: ../tag.php:17
+#: ../archive.php:26 ../image.php:19 ../index.php:30 ../search.php:24
+#: ../single.php:19
 msgid "in"
 msgstr "в"
 
-#: ../index.php:38
-#: ../search.php:28
-#: ../archive.php:38
-#: ../single.php:27
-#: ../category.php:28
-#: ../tag.php:28
+#: ../archive.php:40 ../index.php:46 ../search.php:38 ../single.php:35
 msgid "Tags:"
 msgstr "Тэги:"
 
-#: ../index.php:45
-#: ../search.php:35
-#: ../archive.php:45
-#: ../category.php:35
-#: ../tag.php:35
+#: ../archive.php:47 ../index.php:53 ../search.php:45
 msgid "Previous page"
 msgstr "Предыдущая страница"
 
-#: ../index.php:46
-#: ../search.php:36
-#: ../archive.php:46
-#: ../category.php:36
-#: ../tag.php:36
+#: ../archive.php:48 ../index.php:54 ../search.php:46
 msgid "Next page"
 msgstr "Следующая страница"
 
-#: ../search.php:11
-#: ../functions.php:76
-msgid "Searching for:"
-msgstr "Это ищете:"
+#: ../comments.php:17
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:24
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+#: ../comments.php:25
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: ../comments.php:31
+msgid "You may use these"
+msgstr "Вы можете использовать эти"
+
+#: ../comments.php:31
+msgid "tags and attributes"
+msgstr "тэги и атрибуты"
+
+#: ../comments.php:35 ../comments.php:40
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
 
 #: ../footer.php:17
 msgid "Powered by"
 msgstr "Создано"
 
-#: ../footer.php:17
+#: ../footer.php:18
 msgid "and"
 msgstr "и"
 
-#: ../archive.php:13
-msgid "Daily Archives:"
-msgstr "Архив за день:"
+#: ../functions.php:58
+msgid "Main Sidebar"
+msgstr "Главный сайдбар"
 
-#: ../archive.php:15
-msgid "Monthly Archives:"
-msgstr "Архив за месяц:"
+#: ../functions.php:60
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr "Виджеты в этой области будут показаны на всех постах и страницах."
 
-#: ../archive.php:15
-msgid "F Y"
-msgstr "F Y"
-
-#: ../archive.php:17
-msgid "Yearly Archives:"
-msgstr "Архив за год:"
-
-#: ../archive.php:17
-msgid "Y"
-msgstr "Y"
-
-#: ../archive.php:19
-msgid "Archives:"
-msgstr "Архив:"
-
-#: ../comments.php:13
-msgid "One thought on"
-msgstr "Один комментарий в"
-
-#: ../comments.php:13
-msgid "thoughts on"
-msgstr "комментария(ев) в"
-
-#: ../comments.php:13
-#, php-format
-msgid " &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s "
-msgstr[0] ""
-msgstr[1] "%1$s "
-
-#: ../comments.php:20
-msgid "Older Comments"
-msgstr "Старые комментарии"
-
-#: ../comments.php:21
-msgid "Newer Comments"
-msgstr "Новые комментарии"
-
-#: ../comments.php:27
-msgid "You may use these"
-msgstr "Вы можете использовать эти"
-
-#: ../comments.php:27
-msgid "tags and attributes"
-msgstr "тэги и атрибуты"
-
-#: ../comments.php:31
-#: ../comments.php:36
-msgid "Comments are closed."
-msgstr "Комментарии закрыты."
-
-#: ../404.php:15
-msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-msgstr "Страница, которую вы ищете, могла быть перемещена, ей могли поменять имя, или она временно недоступна."
-
-#: ../404.php:16
-msgid "Please try using our search box below to look for information on the internet."
-msgstr "Пожалуйста воспользуйтесь системой поиска ниже."
-
-#: ../greengarden-nothingfound.php:10
-msgid "Nothing Found"
-msgstr "Ничего не найдено"
-
-#: ../greengarden-nothingfound.php:14
-msgid "Ready to publish your first post?"
-msgstr "Готовы разместить свой первый пост?"
-
-#: ../greengarden-nothingfound.php:14
-msgid "Get started here"
-msgstr "Для начала нажмите сюда"
-
-#: ../greengarden-nothingfound.php:18
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Извините, но  по вашему запросу ничего не найдено. Попробуйте еще раз с другими ключевыми словами."
-
-#: ../greengarden-nothingfound.php:23
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Похоже что мы не можем найти то что вы ищете. Возможно система поиска может вам помочь."
-
-#: ../image.php:62
-msgid "Previous"
-msgstr "Назад"
-
-#: ../image.php:63
-msgid "Next"
-msgstr "Далее"
-
-#: ../category.php:11
-#: ../functions.php:72
-msgid "Category:"
-msgstr "Категория:"
-
-#: ../tag.php:11
-#: ../functions.php:74
-msgid "Tag:"
-msgstr "Тэг:"
-
-#: ../functions.php:70
-msgid "Page"
-msgstr "Страница"
-
-#: ../functions.php:89
+#: ../functions.php:77
 msgid "Choose file"
 msgstr "Выберите файл"
 
-#: ../functions.php:90
+#: ../functions.php:78
 msgid "File is not selected"
 msgstr "Файл не выбран"
 
-#: ../functions.php:103
+#: ../functions.php:92
 msgid "Pingback"
 msgstr "Pingback"
 
-#: ../functions.php:103
-#: ../functions.php:124
+#: ../functions.php:92 ../functions.php:113
 msgid "Edit"
 msgstr "Редактировать"
 
-#: ../functions.php:111
+#: ../functions.php:100
 msgid "by"
 msgstr "от"
 
-#: ../functions.php:114
+#: ../functions.php:103
 msgid "This is post author"
 msgstr "Автор поста"
 
-#: ../functions.php:119
+#: ../functions.php:108
 msgid "at"
 msgstr "в"
 
-#: ../functions.php:127
+#: ../functions.php:117
 msgid "Reply"
 msgstr "Ответить"
 
-#: ../functions.php:144
+#: ../functions.php:140
 msgid "Continue"
 msgstr "Продолжить"
 
-#: ../functions.php:148
+#: ../functions.php:145
 msgid "Add to slider"
 msgstr "Добавить в слайдер"
 
@@ -245,12 +148,93 @@ msgstr "Чтобы добавить"
 msgid "into the slider, mark it"
 msgstr "в слайдер, поставьте галочку"
 
-#: ../searchform.php:8
+#: ../greengarden-nothingfound.php:11
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../greengarden-nothingfound.php:15
+msgid "Ready to publish your first post?"
+msgstr "Готовы разместить свой первый пост?"
+
+#: ../greengarden-nothingfound.php:16
+msgid "Get started here"
+msgstr "Для начала нажмите сюда"
+
+#: ../greengarden-nothingfound.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но  по вашему запросу ничего не найдено. Попробуйте еще раз с "
+"другими ключевыми словами."
+
+#: ../greengarden-nothingfound.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Похоже что мы не можем найти то что вы ищете. Возможно система поиска может "
+"вам помочь."
+
+#: ../greengarden-slider.php:29
+msgid "learn more"
+msgstr "читать далее"
+
+#: ../image.php:71
+msgid "Previous"
+msgstr "Назад"
+
+#: ../image.php:72
+msgid "Next"
+msgstr "Далее"
+
+#: ../index.php:21
+msgid "Sticky post"
+msgstr "Важный пост"
+
+#: ../search.php:12
+msgid "Search results for:"
+msgstr "Результаты поиска для:"
+
+#: ../searchform.php:9
 msgid "Enter search keyword"
 msgstr "Введите слово для поиска"
 
+#~ msgid "One thought on"
+#~ msgstr "Один комментарий в"
+
+#~ msgid "thoughts on"
+#~ msgstr "комментария(ев) в"
+
+#~ msgid "Daily Archives:"
+#~ msgstr "Архив за день:"
+
+#~ msgid "Monthly Archives:"
+#~ msgstr "Архив за месяц:"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives:"
+#~ msgstr "Архив за год:"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Archives:"
+#~ msgstr "Архив:"
+
+#~ msgid "Category:"
+#~ msgstr "Категория:"
+
+#~ msgid "Tag:"
+#~ msgstr "Тэг:"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
 #~ msgid " in "
 #~ msgstr " в "
+
 #~ msgid "LEARN MORE"
 #~ msgstr "ЧИТАТЬ ДАЛЕЕ"
-

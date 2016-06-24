@@ -1,18 +1,19 @@
  === Green Garden ===
-Contributors: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Tags: green, gray, white, two-columns, left-sidebar, fixed-layout, custom-background, custom-menu, editor-style, featured-images, flexible-header, translation-ready
-Requires at least: 3.7
-Tested up to: 3.9.2
-Stable tag: 1.5
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Tags: two-columns, left-sidebar, custom-background, custom-menu, custom-header, editor-style, featured-images, flexible-header, translation-ready
+Requires at least: 4.2
+Tested up to: 4.5.3
+Stable tag: 1.8
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Green Garden WordPress Theme, Copyright 2014 BestWebSoft.com
+Green Garden WordPress Theme, Copyright 2016 BestWebLayout.com
 Green Garden is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Are you a nature-lover, who seeks a theme that would convey the utmost care and aprreciation for Mother Earth? Or maybe you are a photographer,  who is inspired by nature's magnificence and wishes to share their landscape shots in a harmonious and balanced environment? Or are you an owner of a store selling organic goods, who searches for the theme that would bring out the idea of consuming environment-friendly products and following a healthy lifestyle? Whether we hit the bull's eye, or got wide or mark - we are glad to present Green Garden - a dainty, highly customizable and easy-to-use theme that will please even the most blase users. What makes Green Garden even better is the complete compatiblity with other BestWebSoft products. For this matter, we belive that such plugins as Gallery (http://wordpress.org/plugins/gallery-plugin/) and Protfolio (http://wordpress.org/plugins/portfolio/) will serve as a superb extension of your site's functionality, while supporting your overall idea. With these plugins, you will never be alarmed about compliance issues! Live demo: http://bestwebsoft.com/wordpress_demo_theme/greengarden/
+Are you a nature-lover, who seeks a theme that would convey the utmost care and aprreciation for Mother Earth? Or maybe you are a photographer,  who is inspired by nature's magnificence and wishes to share their landscape shots in a harmonious and balanced environment? Or are you an owner of a store selling organic goods, who searches for the theme that would bring out the idea of consuming environment-friendly products and following a healthy lifestyle? Whether we hit the bull's eye, or got wide or mark - we are glad to present Green Garden - a dainty, highly customizable and easy-to-use theme that will please even the most blase users. What makes Green Garden even better is the complete compatiblity with other BestWebSoft products. For this matter, we belive that such plugins as Gallery (http://wordpress.org/plugins/gallery-plugin/) and Protfolio (http://wordpress.org/plugins/portfolio/) will serve as a superb extension of your site's functionality, while supporting your overall idea. With these plugins, you will never be alarmed about compliance issues! Live demo: http://wp-demo-theme.bestweblayout.com/greengarden/
 
 = Features =
 
@@ -30,7 +31,7 @@ Are you a nature-lover, who seeks a theme that would convey the utmost care and 
 
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Copyrights for Resources used in this theme =
 
@@ -82,7 +83,7 @@ Activation and Use
 
 = Slider =
 
-After you install the theme, you will see a metabox "Add to slider" in the edit section of Wordpress admin panel.
+After you install the theme, you will see a metabox "Add to slider" in the edit section of WordPress admin panel.
 This metabox contains a checkbox. If you mark it, a brief description and a thumbnail in the background if it is available, will appear in slider.
 Each post contains its own separate metabox. And by marking it, you will add this post into the slider as a new slide.
 You can have as much slides as you want.
@@ -100,7 +101,7 @@ The Theme includes a standart Widget.
 
 = How can I change the language from English into Russian? =
 
-In the main catalog of your WordPress site find file wp-config.php, open it and change define( ‘WPLANG’, '' ); for define( ‘WPLANG’, ‘ru_RU’ );
+Change the language in the admin settings screen. Settings > General > Site Language.
 
 = Does the theme support widgets? =
 
@@ -108,13 +109,30 @@ Yes, this theme includes widgets. The following widgets are shown by default: re
 
 = How can I start the slider, where should I install it? =
 
-In this theme slider is installed by default. To start is, please, add at least one post into slider (with a help of metabox in the edit section of Wordpress admin panel). To remove slider, please, remove marks in the same metabox for all posts.
+In this theme slider is installed by default. To start is, please, add at least one post into slider (with a help of metabox in the edit section of WordPress admin panel). To remove slider, please, remove marks in the same metabox for all posts.
 
 == Screenshots ==
 
 1. Theme home page.
 
 == Changelog ==
+
+= v1.8 - 24.06.2016 =
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Unnecessary files category.php and tag.php have been removed.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
+= V1.7 - 17.03.2015 =
+* Update: BWS Themes menu was removed.
+
+= V1.6 - 03.03.2015 =
+* Update: The following files were updated: style.css, header.php, functions.php.
+* Update: We updated the theme to WordPress 4.1.1.
+* Bugfix: Navigation menu display was fixed.
+* Bugfix: Featured images display was fixed.
 
 = V1.5 - 22.07.2014 =
 * Update: File style.css was updated.
@@ -137,6 +155,15 @@ In this theme slider is installed by default. To start is, please, add at least 
 * Bugfix: Bug in the slider with image size was fixed.
 
 == Upgrade Notice ==
+
+= V1.8 =
+Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php and tag.php have been removed. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
+
+= V1.7 =
+BWS Themes menu was removed.
+
+= V1.6 =
+We updated the theme to WordPress 4.1.1. Navigation menu display was fixed. Display Featured images display was fixed. The following files were updated: style.css, header.php, functions.php.
 
 = V1.5 =
 We updated theme to WordPress 3.9.2. File style.css was updated. JS custom elements bugs were fixed.

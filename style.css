@@ -1,14 +1,16 @@
 /*
 Theme Name: Green Garden
-Theme URI: https://github.com/bestwebsoft/green-garden-wordpress-theme
-Author: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Description: Are you a nature-lover, who seeks a theme that would convey the utmost care and aprreciation for Mother Earth? Or maybe you are a photographer, who is inspired by nature's magnificence and wishes to share their landscape shots in a harmonious and balanced environment? Or are you an owner of a store selling organic goods, who searches for the theme that would bring out the idea of consuming environment-friendly products and following a healthy lifestyle? Whether we hit the bull's eye, or got wide or mark - we are glad to present Green Garden - a dainty, highly customizable and easy-to-use theme that will please even the most blase users. What makes Green Garden even better is the complete compatiblity with other BestWebSoft products. For this matter, we belive that such plugins as Gallery (http://wordpress.org/plugins/gallery-plugin/) and Protfolio (http://wordpress.org/plugins/portfolio/) will serve as a superb extension of your site's functionality, while supporting your overall idea. With these plugins, you will never be alarmed about compliance issues! Live demo: http://bestwebsoft.com/wordpress_demo_theme/greengarden/
-Version: 1.5
+Theme URI: http://bestweblayout.com/products/green-garden/
+Author: BestWebLayout
+Author URI: http://bestweblayout.com/
+Description: Are you a nature-lover, who seeks a theme that would convey the utmost care and appreciation for Mother Earth? Or maybe you are a photographer, who is inspired by nature's magnificence and wishes to share their landscape shots in a harmonious and balanced environment? Or are you an owner of a store selling organic goods, who searches for the theme that would bring out the idea of consuming environment-friendly products and following a healthy lifestyle? Whether we hit the bull's eye, or got wide or mark - we are glad to present Green Garden - a dainty, highly customizable and easy-to-use theme that will please even the most blase users. What makes Green Garden even better is the complete compatibility with other BestWebSoft products. For this matter, we believe that such plugins as Gallery (http://wordpress.org/plugins/gallery-plugin/) and Portfolio (http://wordpress.org/plugins/portfolio/) will serve as a superb extension of your site's functionality, while supporting your overall idea. With these plugins, you will never be alarmed about compliance issues! Live demo: http://wp-demo-theme.bestweblayout.com/greengarden/
+Version: 1.8
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Tags: green, gray, white, two-columns, left-sidebar, fixed-layout, custom-background, custom-menu, editor-style, featured-images, flexible-header, translation-ready
-Text Domain: grngrdn
+Tags: two-columns, left-sidebar, custom-background, custom-menu, custom-header, editor-style, featured-images, flexible-header, translation-ready
+Text Domain: green-garden
+Green Garden WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Green Garden is distributed under the terms of the GNU GPL
 */
 
 
@@ -185,8 +187,8 @@ a {
 }
 
 .wrap {
-	white-space: pre-wrap;
 	word-wrap: break-word;
+	word-break: break-word;
 }
 
 .wrap-widget {
@@ -208,7 +210,7 @@ textarea,
 .grngrdn-custom-file-content,
 .grngrdn-custom-file-text,
 .grngrdn-custom-file-button {
-	behavior: url( wp-content/themes/green-garden/js/PIE.htc );
+	behavior: url( js/PIE.htc );
 	position: relative;
 	zoom: 1;
 }
@@ -318,7 +320,7 @@ h1.site-title a {
 /*-----------NAV-MENU-----------*/
 
 #grngrdn-main-nav {
-	width: 350px;
+	/*width: 350px;*/
 }
 
 #grngrdn-main-nav ul {
@@ -335,7 +337,7 @@ h1.site-title a {
 	float: left;
 	list-style: none;
 	position: relative;
-	max-width: 150px;
+	/*max-width: 150px;*/
 	word-wrap: break-word;
 }
 
@@ -350,11 +352,12 @@ h1.site-title a {
 
 #grngrdn-main-nav ul.sub-menu li {
 	border:none;
-	margin: 0px;
+	margin: 0;
 	float: none;
 }
 
-#grngrdn-main-nav ul > li.current_page_item {
+#grngrdn-main-nav ul > li.current-menu-item,
+#grngrdn-main-nav ul > li.current-menu-ancestor {
 	border-bottom: solid 3px #69a03d;
 }
 
@@ -442,17 +445,32 @@ h1.site-title a {
 	display: block;
 	float: none;
 	position: relative;
-	right: 0px;
+	right: 0;
 	border:none;
-	position: relative;
 }
 
-#grngrdn-main-nav li > ul > li.current_page_item {
+#grngrdn-main-nav li > ul > li.current-menu-item,
+#grngrdn-main-nav li > ul > li.current-menu-ancestor {
 	border:none;
 }
 
 #grngrdn-main-nav li > ul > li > a {
 	background: #37561d;
+}
+
+#grngrdn-main-nav ul ul > li.current-menu-item > a,
+#grngrdn-main-nav ul ul > li.current-menu-ancestor > a {
+	color: #879a77;
+	background: #263c14;
+}
+
+ul .menu-item-has-children > a::after {
+	content: ' \025BE';
+}
+
+ul.sub-menu .menu-item-has-children > a::after {
+	content: '\025B8';
+	float: right;
 }
 
 /*-----------END NAV-MENU-----------*/
@@ -490,8 +508,8 @@ form.searchform input[type="submit"] {
 }
 
 #grngrdn-content form.searchform input[type="submit"] {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 /*-----------END SEARCHFORM-----------*/
@@ -519,6 +537,8 @@ form.searchform input[type="submit"] {
 .flexslider .slides img {
 	margin: 0 auto;
 	display: block;
+	max-width: none;
+	max-height: 100%;
 }
 .flex-pauseplay span {
 	text-transform: capitalize;
@@ -760,12 +780,12 @@ html[xmlns] .slides {
 }
 
 .grngrdn-slider-content{
-	padding: 14px 0px 32px 0px;
+	padding: 14px 0 32px 0;
 	width: 940px;
 }
 
 .grngrdn-slider-content p{
-	padding: 0px 170px;
+	padding: 0 170px;
 	line-height: 23px;
 	color: #fff;
 }
@@ -864,7 +884,7 @@ h2.widgettitle a {
 #grngrdn-sidebar table {
 	max-width: 100%;
 	border-collapse: collapse;
-	border-spacing: 0px;
+	border-spacing: 0;
 }
 
 #grngrdn-sidebar table caption {
@@ -962,7 +982,7 @@ h1.grngrdn-page-title,
 .article-comment table {
 	max-width: 100%;
 	border-collapse: collapse;
-	border-spacing: 0px;
+	border-spacing: 0;
 }
 
 .entry table caption,
@@ -1103,7 +1123,7 @@ p.totop {
 	border-radius: 3px;
 	background: #f3f3f3;
 	display: block;
-	padding: 0px 5px;
+	padding: 0 5px;
 }
 
 .entry textarea,
@@ -1148,7 +1168,7 @@ select {
 	height: 37px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	color: #555
+	color: #555;
 }
 
 .grngrdn-active-opt > div:first-child {
@@ -1215,7 +1235,7 @@ select {
 	height: 18px;
 	width: 18px;
 	padding: 0 0 3px ;
-	margin: 10px 8px 0px 29px;
+	margin: 10px 8px 0 29px;
 	cursor: pointer;
 	background: url(images/radio_sprite.png) no-repeat;
 	position: relative;
@@ -1223,11 +1243,11 @@ select {
 }
 
 .grngrdn-radio.grngrdn-active {
-	background-position: 0px -36px;
+	background-position: 0 -36px;
 }
 
 .grngrdn-radio.grngrdn-hover {
-	background-position: 0px -72px;
+	background-position: 0 -72px;
 }
 
 /*-----------END RADIO-----------*/
@@ -1248,7 +1268,7 @@ select {
 	display: inline-block;
 	background: url(images/check_sprite.png) 0 0 no-repeat;
 	padding: 0 0 3px ;
-	margin: 10px 8px 0px 29px;
+	margin: 10px 8px 0 29px;
 	width: 18px;
 	height: 18px;
 	cursor: pointer;
@@ -1257,11 +1277,11 @@ select {
 }
 
 .grngrdn-check.grngrdn-active {
-	background-position: 0px -36px;
+	background-position: 0 -36px;
 }
 
 .grngrdn-check.grngrdn-hover {
-	background-position: 0px -72px;
+	background-position: 0 -72px;
 }
 
 /*-----------END CHECKBOX-----------*/
@@ -1277,7 +1297,7 @@ select {
 	width: 440px;
 	padding: 10px;
 	height: 50px;
-	margin: 8px 0px 0px 0px;
+	margin: 8px 0 0 0;
 	border-radius: 5px;
 	cursor: pointer;
 	background: #f1f1f1;
@@ -1349,12 +1369,11 @@ input[type="submit"]:hover {
 
 pre {
 	border: 1px solid #dddddd;
-	margin-top: 20px;
-	padding-bottom: 0px;
-	word-wrap: break-word;
+	margin: 20px 0 0;
+	padding-bottom: 0;
 	padding-left: 20px;
+	word-wrap: break-word;
 	color: #aaaaaa;
-	margin: 0;
 	overflow: auto;
 }
 
@@ -1405,7 +1424,7 @@ blockquote:after {
 
 .post-nav-next,
 .image-nav-next,
-.posts-nav-next, {
+.posts-nav-next {
 	text-align: right;
 }
 
@@ -1497,7 +1516,7 @@ header.comment-header {
 }
 
 .pingback {
-	padding: 15px 0px;
+	padding: 15px 0;
 
 }
 
@@ -1549,7 +1568,7 @@ dl.gallery-item {
 
 .grngrdn-footer-theme-name {
 	max-width: 300px;
-	padding: 28px 0px 24px 0px;
+	padding: 28px 0 24px 0;
 }
 
 .grngrdn-footer-theme-name h3 {
@@ -1591,3 +1610,32 @@ dl.gallery-item {
 }
 
 /*-----------END BWS PLUGINS-----------*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
