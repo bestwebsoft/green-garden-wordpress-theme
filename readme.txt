@@ -1,11 +1,11 @@
  === Green Garden ===
 Contributors: BestWebLayout, BestWebSoft
 Author URI: http://bestweblayout.com/
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, left-sidebar, custom-background, custom-menu, custom-header, editor-style, featured-images, flexible-header, translation-ready
 Requires at least: 4.2
-Tested up to: 4.5.3
-Stable tag: 1.8
+Tested up to: 4.6
+Stable tag: 1.9
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Green Garden WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -117,6 +117,9 @@ In this theme slider is installed by default. To start is, please, add at least 
 
 == Changelog ==
 
+= V1.9 - 19.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
 = v1.8 - 24.06.2016 =
 * Bugfix: Fixed mismatch coding standards.
 * Bugfix: Fixed theme styles.
@@ -155,6 +158,9 @@ In this theme slider is installed by default. To start is, please, add at least 
 * Bugfix: Bug in the slider with image size was fixed.
 
 == Upgrade Notice ==
+
+= V1.9 =
+* The compatibility with new WordPress version updated.
 
 = V1.8 =
 Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php and tag.php have been removed. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.

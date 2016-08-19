@@ -20,12 +20,12 @@ get_sidebar(); ?>
 						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 					</h3>
 					<p class="entry-meta grey">
-						<?php printf( __( 'Posted on', 'green-garden' ) . '&nbsp;' ) ?>
+						<?php echo __( 'Posted on', 'green-garden' ) . '&nbsp;'; ?>
 						<a href="<?php the_permalink(); ?>"><?php echo get_the_date() ?></a>
 						<?php if ( has_category() ) {
-							printf( '&nbsp;' . __( 'in', 'green-garden' ) . '&nbsp;' );
-						}
-						the_category( ', ' ); ?>
+							echo '&nbsp;' . __( 'in', 'green-garden' ) . '&nbsp;';
+							the_category( ', ' );
+						} ?>
 					</p>
 				</header><!-- .entry-header -->
 				<div class="entry">

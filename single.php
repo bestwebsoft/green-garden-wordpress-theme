@@ -13,12 +13,12 @@ get_sidebar(); ?>
 				<header class="entry-header">
 					<h2 class="post-title wrap"><?php the_title(); ?></h2>
 					<p class="entry-meta grey">
-						<?php printf( __( 'Posted on', 'green-garden' ) . '&nbsp;' );
-						echo get_archives_link( get_home_url( null, get_the_date( 'Y/m' ) ), get_the_date(), '', '', '' );
+						<?php echo __( 'Posted on', 'green-garden' ) . '&nbsp;';
+						echo '<a href="' . esc_url( get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) ) . '" title="' . the_title_attribute( 'echo=0' ) . '">' . get_the_date() . '</a>';
 						if ( has_category() ) {
-							printf( '&nbsp;' . __( 'in', 'green-garden' ) . '&nbsp;' );
-						}
-						the_category( ', ' ); ?>
+							echo '&nbsp;' . __( 'in', 'green-garden' ) . '&nbsp;';
+							the_category( ', ' );
+						} ?>
 					</p>
 				</header><!-- .entry-header -->
 				<div class="entry">

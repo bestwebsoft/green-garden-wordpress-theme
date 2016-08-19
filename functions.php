@@ -65,10 +65,11 @@ function grngrdn_widgets_init() {
 
 /*adding styles and scripts for theme*/
 function grngrdn_scripts_styles() {
-	wp_enqueue_style( 'greengardenStyles', get_stylesheet_uri() ); /*including styles*/
-	wp_enqueue_script( 'greengardenScripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ) ); /*including main scripts*/
-	wp_enqueue_script( 'greengardenScriptSlider', get_template_directory_uri() . '/js/jquery.flexslider-min.js', array( 'jquery' ) ); /*including scripts for slider*/
-	wp_enqueue_script( 'greengardenHtml5', get_template_directory_uri() . '/js/html5.js' ); /*including scripts for compatibility html5 with IE*/
+	wp_enqueue_style( 'greengarden-styles', get_stylesheet_uri() ); /*including styles*/
+	wp_enqueue_script( 'greengarden-scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ) ); /*including main scripts*/
+	wp_enqueue_script( 'greengarden-script-slider', get_template_directory_uri() . '/js/jquery.flexslider-min.js', array( 'jquery' ) ); /*including scripts for slider*/
+	wp_enqueue_script( 'greengarden-html5', get_template_directory_uri() . '/js/html5.js' ); /*including scripts for compatibility html5 with IE*/
+	wp_script_add_data( 'greengarden-html5', 'conditional', 'lt IE 9' );
 	if ( is_singular() ) {
 		wp_enqueue_script( 'comment-reply' );
 	} /*including scripts for comments reply*/
@@ -78,7 +79,7 @@ function grngrdn_scripts_styles() {
 		'file_is_not_selected' => __( 'File is not selected', 'green-garden' ),
 		'grngrdn_home_url'     => esc_url( home_url() ),
 	);
-	wp_localize_script( 'greengardenScripts', 'script_loc', $script_localization ); /*localization in scripts*/
+	wp_localize_script( 'greengarden-scripts', 'script_loc', $script_localization ); /*localization in scripts*/
 }
 
 /*customize comments*/

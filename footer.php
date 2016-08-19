@@ -17,7 +17,7 @@
 			<p><?php _e( 'Powered by', 'green-garden' ); ?>
 				<a href="<?php echo esc_url( wp_get_theme()->get( 'AuthorURI' ) ); ?>"> BestWebLayout </a><?php _e( 'and', 'green-garden' ); ?>
 				<a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>"> WordPress</a></p>
-			<p>&copy;<?php echo date( 'Y' ) . '&nbsp;';
+			<p>&copy;<?php echo date_i18n( 'Y' ) . '&nbsp;';
 				bloginfo( 'name' ); ?></p>
 		</div><!-- .grngrdn-footer-siteinfo -->
 		<div class="clear"></div>
